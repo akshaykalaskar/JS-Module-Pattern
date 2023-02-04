@@ -1,3 +1,10 @@
-h1, h2 {
+h1,
+h2 {
   font-family: Lato;
+}
+.total-budget {
+  display: inline-block;
+  width: 200px;
+  background: green;
+  padding: 10px;
 }
