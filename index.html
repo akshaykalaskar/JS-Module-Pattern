@@ -1,8 +1,38 @@
-<div id="app"><h1>JS Module Pattern</h1></div>
-
+<div id="app"><h3>JS Module Pattern</h3></div>
 <hr />
-Total Budget - <span class="total-budget">1000</span>
-<form action="">
-  <label for="">Name</label>
-  <input type="text" id="name" />
-</form>
+
+<div class="container">
+  <h2>Savings Calculator</h2>
+  <section class="fix-section">
+    <div>
+      Total Budget - <span class="text-heighlight total-budget">{1000}</span>
+    </div>
+    <div>
+      Total Savings - <span class="text-heighlight total-savings">{1000}</span>
+    </div>
+  </section>
+  <form action="">
+    <div class="input-wrapper">
+      <input type="text" id="name" placeholder="Expense/Earning" />
+      <input type="text" id="amount" placeholder="Amount" />
+    </div>
+    <div class="button-wrapper">
+      <button class="text-heighlight">Add</button>
+      <button class="text-heighlight">Subtract</button>
+    </div>
+  </form>
+</div>
+
+<div class="container">
+  <h2>Transactions</h2>
+  <section class="fix-section">
+    <span>Bread</span>
+    <span>Expense</span>
+    <span>500</span>
+  </section>
+  <section class="fix-section">
+    <span>Bread</span>
+    <span>Expense</span>
+    <span>500</span>
+  </section>
+</div>
